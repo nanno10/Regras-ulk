@@ -1,0 +1,26 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('fundo.gif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px 25px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 14px;
+    width: 250px;
+}
