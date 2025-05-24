@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Regras ULK</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: url('https://i.imgur.com/WwDC1CW.jpeg') repeat;
+      background-size: 300% 300%;
+      animation: backgroundMove 20s linear infinite;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    @keyframes backgroundMove {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.7);
+      border: 3px solid cyan;
+      border-radius: 20px;
+      padding: 20px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 0 20px cyan;
+      animation: floatText 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes floatText {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-10px); }
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.6rem;
+      color: cyan;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 10px;
+      font-size: 0.9rem;
+    }
+
+    li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    li::before {
+      content: "蛇";
+      margin-right: 8px;
+      color: limegreen;
+    }
+
+    .canal {
+      margin-top: 20px;
+      font-size: 0.85rem;
+      word-break: break-all;
+    }
+
+    .canal a {
+      color: cyan;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>BEM VINDOS AO CHAT DA ULK ✨</h1>
+    <ul>
+      <li>Sem gore</li>
+      <li>Sem +18</li>
+      <li>Sem link sem a permissão</li>
+      <li>Sem flood</li>
+      <li>Sem invadir pv, só com permissão</li>
+      <li>Respeite todos os membros</li>
+      <li>Evite discussões políticas ou religiosas</li>
+      <li>Não faça spam</li>
+      <li>Proibido divulgar outros grupos sem autorização</li>
+      <li>Conteúdos ofensivos ou preconceituosos serão banidos</li>
+    </ul>
+    <div class="canal">
+      Canal:<br />
+      <a href="https://whatsapp.com/channel/0029Vb6M2sSAu3aLLPqv">
+        https://whatsapp.com/channel/0029Vb6M2sSAu3aLLPqv
+      </a>
+    </div>
+  </div>
+</body>
+</html>
