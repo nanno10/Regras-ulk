@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  animation: bgmove 60s ease-in-out infinite;
+}
+@keyframes bgmove {
+  0%, 100% { background-position: center center; }
+  50% { background-position: center top; }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  padding-bottom: 60px;
+}
+.rules-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 20px 30px;
+  width: 320px;
+  color: white;
+  text-align: center;
+}
+.rules-box h1 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+.rules-box ul {
+  list-style: none;
+}
+.rules-box li {
+  margin-bottom: 10px;
+}
